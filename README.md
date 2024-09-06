@@ -8,7 +8,16 @@ Linguagens e Tecnologias utilizados: Java 21, Spring Boot, Maven, PostgresSQL.
 - 📄 [Java](https://docs.oracle.com/en/java/)
 - 📄 [Spring](https://docs.spring.io/spring-boot/index.html)
 
-## 💿 Instalação
+### Comando para criação do DB:
+
+```env
+create table tb_tasks (
+  task_id text primary key,
+  title text not null,
+  description varchar(250),
+  status varchar(250)
+);
+```
 
 ### Start na aplicação
 
